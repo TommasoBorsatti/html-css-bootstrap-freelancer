@@ -46,10 +46,8 @@ img{
   max-height: 100px
 }
 
-section.bg_white{
-  height:850px;
-}
-
-section.bg_aqua{
-  height: 610px;
+.content_box{
+  padding: 10% 0;
+  margin: auto;
+  width:80%;
 }
