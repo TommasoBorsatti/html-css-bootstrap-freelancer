@@ -32,9 +32,24 @@ h1, h4, span{
 
 .img_box{
   margin-bottom: 50px;
-
 }
 
 h1{
   margin: 0 0
+}
+
+.card_box{
+  min-height: 150px;
+}
+
+img{
+  max-height: 100px
+}
+
+section.bg_white{
+  height:850px;
+}
+
+section.bg_aqua{
+  height: 610px;
 }
