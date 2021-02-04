@@ -72,6 +72,40 @@
   padding-right: 0;
 }
 
+.card_box > img{
+  position:relative;
+}
+
+.card_box:hover.overlay_fx::after, .card_box:hover .didascalia{
+  opacity: 0.9;
+  transition: .5s ease;
+}
+
+.didascalia{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  color: white;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.overlay_fx::after{
+  content: "";
+  opacity: 0;
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1ABC9C;
+  z-index: 5;
+  border-radius: 4%;
+}
+
 .v_reset{
   padding-top: 0;
   padding-bottom: 0;
@@ -101,22 +135,22 @@
   font-weight: bold;
 
 }
-.star::before, .star::after{
+.star::before{
   display: inline-block;
-  width:500px;
+  width:100px;
   height:3px;
   background-color: white;
-  position: relative;
 }
 
 .download{
   font-size: 20px;
 }
 
-.item_circled{
+.circle_box{
   border: 1px solid;
   border-radius: 50%;
   padding: 10px;
+  width: 40px;
 }
 
 /* TYPO */
@@ -146,7 +180,7 @@ h4{
   font-weight: bold;
 }
 
-p{font-size: 18px;
+p{font-size: 16px;
 }
 
 /* FORMATTAZIONE */
@@ -192,6 +226,7 @@ nav h2, nav li{
   margin: 15px 0;
   padding: 10px 15px;
   margin: auto;
+  position: relative;
 }
 
 .card_box > img{
