@@ -1,0 +1,15 @@
+nav{
+  background-color: orange;
+}
+
+span, ul{
+  margin-bottom: 0;
+}
+
+.btn_primary{
+  background-color: #1ABC9C;
+}
+
+.text_white_color{
+  color: #fff
+}

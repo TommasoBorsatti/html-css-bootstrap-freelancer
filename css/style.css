@@ -1,63 +1,155 @@
 
 /* COLORI DI SFONDO */
 
-.bg_nav_grey{
+.bg_nav_color{
   background-color:#1a252f
 }
 
-.bg_aqua{
+.bg_primary_color{
   background-color: #1ABC9C
 }
 
-.bg_white{
+.bg_secondary_color{
   background-color: #fff
 }
 
-.bg_blue{
+.bg_third_color{
   background-color:  #2C3E50
 }
 
 /* COLORI DEL TESTO */
 
-h1, h4, span{
+.text_white_color{
   color: #fff
 }
 
-.button_box h4 {
-  color: #000;
+.text_primary_color{
+  color: #2c3e50
 }
 
-footer p{
-  color: #fff;
+/* Bottoni */
+
+.btn_primary{
+  background-color: #1ABC9C;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bold;
+  border-radius: 6px;
 }
 
-/* FORMATTAZIONE */
-
-.hero_box{
-  height: 490px;
-  padding: 150px 0
+.burger{
+  font-size: 13px;
+  font-weight: bold;
 }
 
-.img_box{
-  margin-bottom: 50px;
+/* Mix */
+
+.v_reset{
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom:0;
+}
+
+.link_reset{
+  text-decoration: none;
+}
+
+.padding_10{
+  padding: 10px;
+}
+
+.padding_25{
+  padding: 25px;
+}
+
+.star{
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.star::before, .star::after{
+  display: inline-block;
+  width:30px;
+  height:3px;
+  background-color: white;
+}
+
+/* TYPO */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, nav li{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0;
 }
 
 h1{
-  margin: 0 0
+ font-size: 40px;
+ font-weight: bolder;
+ letter-spacing: 5px;
+}
+
+h2{
+  font-size: 25px;
+}
+
+
+/* FORMATTAZIONE */
+
+/* Sezioni generali*/
+
+section.bg_nav_color{
+  padding: 20px 0;
+}
+
+section{
+  padding: 70px 0;
+}
+
+/* Nav */
+
+nav{
+  padding: 30px 0;
+}
+
+nav h2, nav li{
+  line-height: 34px;
+}
+
+/* jumbotron */
+
+.hero_box{
+  text-align: center;
+}
+
+.hero_img_box{
+  width:255px;
+  margin: auto;
+}
+
+.hero_img_box > img{
+  width:100%
 }
 
 .card_box{
-  min-height: 150px;
+  margin: 15px 0;
+  background-color: lightblue;
+  padding: 10px;
 }
 
-img{
-  max-height: 100px
+.card_box > img{
+  width: 100%
 }
 
-.content_box{
-  padding: 10% 0;
+.small_container{
   margin: auto;
-  width:80%;
+  width:70%;
+  max-width: 800px;
 }
 
 .form_box, .button_box{
@@ -66,8 +158,8 @@ img{
   padding: 30px 0;
 }
 
-section.bg_white{
-  padding: 80px 0;
+#about p{
+  padding: 0 15px;
 }
 
 footer .text_box{
@@ -79,6 +171,13 @@ footer .text_box:last-child{
   width: 75%;
 }
 
-section.bg_blue, section.bg_nav_grey{
-  padding: 20px 0;
+/* MEDIA QUERY PER STILE CSS */
+
+ /* SM in giù (0px-991px) */
+@media screen and (max-width: 767px){
+
+  .small_container{
+    width:90%;
+    text-align: center;
+  }
 }
