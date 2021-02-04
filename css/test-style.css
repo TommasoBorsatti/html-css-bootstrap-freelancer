@@ -13,3 +13,16 @@ span, ul{
 .text_white_color{
   color: #fff
 }
+
+
+form{
+  margin-top: 100px;
+}
+
+.custom_form{
+  display: block;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  color: #6C757D;
+  font-size: 18px;
+}
