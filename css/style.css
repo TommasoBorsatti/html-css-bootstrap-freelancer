@@ -35,6 +35,17 @@
   padding-bottom: 8px;
   font-weight: bold;
   border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn_empty{
+  background: transparent;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid white;
+  font-weight: bold;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .burger{
@@ -63,6 +74,10 @@
   padding: 25px;
 }
 
+.h_padding15{
+  padding: 0 15px;
+}
+
 .star{
   display: inline-block;
   font-size: 30px;
@@ -76,14 +91,18 @@
   background-color: white;
 }
 
+.download{
+  font-size: 20px;
+}
+
 /* TYPO */
 
 body{
   font-family: 'Montserrat', sans-serif;
 }
 
-h2, nav li{
-  font-size: 16px;
+nav h2, nav li{
+  font-size: 18px;
   font-weight: bold;
   margin: 0 0;
 }
@@ -96,8 +115,11 @@ h1{
 
 h2{
   font-size: 25px;
+  font-weight: bold;
 }
 
+p{font-size: 16px;
+}
 
 /* FORMATTAZIONE */
 
@@ -136,19 +158,25 @@ nav h2, nav li{
   width:100%
 }
 
+/* portfolio */
+
 .card_box{
   margin: 15px 0;
-  background-color: lightblue;
-  padding: 10px;
+  padding: 10px 15px;
+  margin: auto;
 }
 
 .card_box > img{
-  width: 100%
+  width: 100%;
+  border-radius: 4%;
+
 }
+
+/* about */
 
 .small_container{
   margin: auto;
-  width:70%;
+  width:80%;
   max-width: 800px;
 }
 
@@ -156,10 +184,6 @@ nav h2, nav li{
   width: 50%;
   margin: auto;
   padding: 30px 0;
-}
-
-#about p{
-  padding: 0 15px;
 }
 
 footer .text_box{
@@ -178,6 +202,10 @@ footer .text_box:last-child{
 
   .small_container{
     width:90%;
-    text-align: center;
+  }
+
+  .card_box{
+    width:70%;
+    min-width: 200px;
   }
 }
