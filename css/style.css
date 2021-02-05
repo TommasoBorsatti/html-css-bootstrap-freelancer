@@ -181,6 +181,10 @@ p{font-size: 16px;
 
 /* Sezioni generali*/
 
+#jumbotron{
+  margin-top: 90px;
+}
+
 section.bg_nav_color{
   padding: 20px 0;
 }
