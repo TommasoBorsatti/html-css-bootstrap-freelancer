@@ -82,6 +82,46 @@ a:hover {
   padding-right: 0;
 }
 
+.v_reset{
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom:0;
+}
+
+.link_reset{
+  text-decoration: none;
+}
+
+.padding_10{
+  padding: 10px 0;
+}
+
+.padding_25{
+  padding: 25px 0;
+}
+
+.margin_15{
+  margin: 15px 0;
+
+}
+.h_padding15{
+  padding: 0 15px;
+}
+
+.download{
+  font-size: 20px;
+}
+
+.circle_box{
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 10px;
+  width: 40px;
+}
+
+/* Regole Overlay */
+
 .card_box > img{
   position:relative;
 }
@@ -116,38 +156,17 @@ a:hover {
   border-radius: 4%;
 }
 
-.v_reset{
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 0;
-  margin-bottom:0;
-}
-
-.link_reset{
-  text-decoration: none;
-}
-
-.padding_10{
-  padding: 10px 0;
-}
-
-.padding_25{
-  padding: 25px 0;
-}
-
-.margin_15{
-  margin: 15px 0;
-
-}
-.h_padding15{
-  padding: 0 15px;
-}
+/* Regole stelle */
 
 .star{
   display: inline-block;
   font-size: 30px;
   font-weight: bold;
   vertical-align: middle;
+}
+
+.star_divider{
+  margin-bottom: 20px;
 }
 
 .star_divider::after, .star_divider::before{
@@ -164,18 +183,6 @@ a:hover {
 section.bg_secondary_color .star_divider::after,
 section.bg_secondary_color .star_divider::before{
   background-color: #2c3e50;
-}
-
-
-.download{
-  font-size: 20px;
-}
-
-.circle_box{
-  border: 1px solid;
-  border-radius: 50%;
-  padding: 10px;
-  width: 40px;
 }
 
 /* TYPO */
@@ -292,5 +299,9 @@ footer .text_box:last-child{
   .card_box{
     width:70%;
     min-width: 200px;
+  }
+
+  h1{
+    font-size: 30px;
   }
 }
