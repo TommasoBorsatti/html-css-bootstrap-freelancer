@@ -116,8 +116,8 @@ a:hover {
 .circle_box{
   border: 1px solid;
   border-radius: 50%;
-  padding: 10px;
   width: 40px;
+  padding: 10px;
 }
 
 /* Regole Overlay */
@@ -292,13 +292,16 @@ footer [class*=col-]{
   padding: 15px 0;
 }
 
-footer a, footer a:hover, footer a:visited{
+footer a, footer a:visited{
   color: white;
+}
+
+footer .circle_box:hover a{
+  color: #2C3E50;
 }
 
 footer .circle_box:hover{
   background-color: white;
-
 }
 
 
