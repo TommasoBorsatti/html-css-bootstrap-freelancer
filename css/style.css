@@ -292,6 +292,14 @@ footer [class*=col-]{
   padding: 15px 0;
 }
 
+footer a, footer a:hover, footer a:visited{
+  color: white;
+}
+
+footer .circle_box:hover{
+  background-color: white;
+
+}
 
 
 /* MEDIA QUERY PER STILE CSS */
